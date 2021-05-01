@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             add(11)
             add(35)
             add(1)
-            //확진자 수라생각합시다 }
+            //확진자 수라생각합시다
 
             reyclerview?.adapter?.notifyDataSetChanged()
         }
