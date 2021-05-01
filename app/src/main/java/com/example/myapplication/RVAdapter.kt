@@ -33,7 +33,7 @@ class RVAdapter(val list:List<Int>): RecyclerView.Adapter<RVAdapter.ViewHolder>(
         /*
          object형과의 차이점은 특정한 background를 골라서 사용할때
          holder.item.setBackgroundResource(CustomBackground.Circle_Black.res)
-         이렇게 변수명이 어떤 의미 인지 않 수 있음
+         이렇게 변수명이 어떤 의미 인지 알 수 있음
 
          object형의 경우는
          holder.item.setBackgroundResource(CustomBackground2.list[0].first)
